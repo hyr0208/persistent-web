@@ -4,7 +4,7 @@ import { imageData } from "../../constants/imageData";
 function Header() {
   return (
     <header className="h-[88px] z-10 bg-[#444444] fixed w-screen">
-      <div className="max-w-[1920px] m-auto ">
+      <div className="max-w-[1200px] m-auto ">
         <div className="relative flex justify-between">
           <img
             src={imageData.logo}
