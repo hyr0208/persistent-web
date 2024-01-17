@@ -1,4 +1,5 @@
 export const imageData = {
-  logo: require("../assets/images/logo.png"),
+  logoWhite: require("../assets/images/logoWhite.png"),
   banner: require("../assets/images/banner.png"),
+  logoBlack: require("../assets/images/logoBlack.png"),
 };

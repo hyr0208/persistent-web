@@ -7,7 +7,7 @@ function Header() {
       <div className="max-w-[1200px] m-auto ">
         <div className="relative flex justify-between">
           <img
-            src={imageData.logo}
+            src={imageData.logoWhite}
             alt=""
             className="w-[150px] cursor-pointer mt-[36px] mx-8"
           />
