@@ -1,7 +1,20 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Header from "./Header";
+import { Outlet } from "react-router-dom";
+import Footer from "./Footer";
 
 function Layout() {
-  return <div>Layout</div>;
+  return (
+    <Fragment>
+      <Header />
+      <main className="pt-[64px]">
+        <div>
+          <Outlet />
+        </div>
+      </main>
+      <Footer />
+    </Fragment>
+  );
 }
 
 export default Layout;

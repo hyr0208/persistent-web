@@ -7,7 +7,7 @@ function Router() {
   return (
     <Routes>
       <Route element={<Layout />}>
-        <Route element={<MainPage />}></Route>
+        <Route path="/" element={<MainPage />}></Route>
       </Route>
     </Routes>
   );
