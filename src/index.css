@@ -14,35 +14,6 @@
   }
 }
 
-@layer components {
-  ::selection {
-    @apply text-white bg-primary;
-  }
-
-  /* ScrollBar [START] */
-  /* width */
-  ::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-  }
-
-  /* Track */
-  ::-webkit-scrollbar-track {
-    @apply bg-primary/30;
-  }
-
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    @apply rounded-md bg-primary;
-  }
-
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    @apply bg-primary/70;
-  }
-  /* ScrollBar [END] */
-}
-
 @font-face {
   font-family: "Pretendard";
   font-weight: 100;
