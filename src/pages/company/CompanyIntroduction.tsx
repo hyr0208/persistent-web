@@ -1,7 +1,7 @@
 import React from "react";
 import { imageData } from "../../constants/imageData";
 
-function MainPage() {
+function CompanyIntroduction() {
   return (
     <div className="relative">
       <img
@@ -163,4 +163,4 @@ function MainPage() {
   );
 }
 
-export default MainPage;
+export default CompanyIntroduction;
