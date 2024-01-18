@@ -7,7 +7,7 @@ function Layout() {
   return (
     <Fragment>
       <Header />
-      <main className="pt-[64px]">
+      <main className="mt-[88px] min-h-[calc(100vh-88px-100px)]">
         <div>
           <Outlet />
         </div>

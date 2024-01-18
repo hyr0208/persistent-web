@@ -7,7 +7,7 @@ function Header() {
   const navigate = useNavigate();
 
   return (
-    <header className="h-[88px] z-10 bg-[#444444] fixed w-screen">
+    <header className="h-[88px] z-10 bg-[#444444] fixed w-screen top-0">
       <div className="max-w-[1200px] m-auto ">
         <div className="relative flex justify-between">
           <img
@@ -21,7 +21,9 @@ function Header() {
 
           <nav>
             <ul className="flex flex-row font-semibold text-white gap-20 mt-[36px] mr-8">
-              <li className="cursor-pointer">기업소개</li>
+              <li className="cursor-pointer">
+                <Link to={"/"}>기업소개</Link>
+              </li>
               <li className="cursor-pointer">
                 <Link to={"/brandintroduction"}>브랜드소개</Link>
               </li>
