@@ -5,4 +5,5 @@ export const imageData = {
   heart: require("../assets/images/heart.png"),
   fire: require("../assets/images/fire.png"),
   mind: require("../assets/images/mind.png"),
+  banner2: require("../assets/images/banner2.png"),
 };

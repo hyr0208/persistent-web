@@ -13,14 +13,14 @@ function Header() {
           <img
             src={imageData.logoWhite}
             alt=""
-            className="w-[150px] cursor-pointer mt-[36px] mx-8"
+            className="w-[150px] cursor-pointer my-8 mx-8"
             onClick={() => {
               navigate("/");
             }}
           />
 
           <nav>
-            <ul className="flex flex-row font-semibold text-white gap-20 mt-[36px] mr-8">
+            <ul className="flex flex-row font-semibold text-white gap-20 my-8 mr-8">
               <li className="cursor-pointer">
                 <Link to={"/"}>기업소개</Link>
               </li>
