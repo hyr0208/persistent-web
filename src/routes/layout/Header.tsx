@@ -21,10 +21,10 @@ function Header() {
 
           <nav>
             <ul className="flex flex-row font-semibold text-white gap-20 mt-[36px] mr-8">
+              <li className="cursor-pointer">기업소개</li>
               <li className="cursor-pointer">
-                <Link to={"/companyintroduction"}>기업소개</Link>
+                <Link to={"/brandintroduction"}>브랜드소개</Link>
               </li>
-              <li className="cursor-pointer">브랜드소개</li>
               <li className="cursor-pointer">채용공고</li>
               <li className="cursor-pointer">공지사항</li>
             </ul>
