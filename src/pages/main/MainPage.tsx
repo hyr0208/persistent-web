@@ -48,17 +48,45 @@ function MainPage() {
               기업입니다.
             </p>
           </div>
-          <div className="flex flex-row justify-center gap-[150px] mx-6">
-            <div className="w-[230px]">
-              <img src={imageData.heart} alt="" />
+          <div className="flex flex-row justify-center gap-[100px] mx-6 ">
+            <div className="flex flex-col items-center ">
+              <img
+                src={imageData.heart}
+                alt=""
+                className="w-[200px] mb-[30px]"
+              />
+
+              <p className="text-center">
+                음식 뿐아니라 경험에도 큰 가치를 갖게 함으로서
+                <br />
+                일상에서 행복지수가 높아 지는것을 돕는것이 우리의 비젼
+              </p>
             </div>
 
-            <div className="w-[230px]">
-              <img src={imageData.fire} alt="" />
+            <div className="flex flex-col items-center">
+              <img
+                src={imageData.fire}
+                alt=""
+                className="w-[200px] mb-[30px]"
+              />
+              <p className="text-center">
+                음식 뿐아니라 경험에도 큰 가치를 갖게 함으로서
+                <br />
+                일상에서 행복지수가 높아 지는것을 돕는것이 우리의 비젼
+              </p>
             </div>
 
-            <div className="w-[230px]">
-              <img src={imageData.mind} alt="" />
+            <div className="flex flex-col items-center">
+              <img
+                src={imageData.mind}
+                alt=""
+                className="w-[200px] mb-[30px]"
+              />
+              <p className="text-center">
+                음식 뿐아니라 경험에도 큰 가치를 갖게 함으로서
+                <br />
+                일상에서 행복지수가 높아 지는것을 돕는것이 우리의 비젼
+              </p>
             </div>
           </div>
         </div>
